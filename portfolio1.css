@@ -1,0 +1,98 @@
+body{
+    overflow: hidden;
+}
+.skillz{
+    width: 48%;
+    position: absolute;
+    top: 23vh;
+    left: 14.6vw;
+}
+.sklz{
+    margin-bottom: 3vh;
+    font-size: 3.5rem;
+}
+.sklz2{
+    width: 83%;
+    font-size: 1rem;
+}
+.pre{
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.html, .css, .js, .react{
+    font-weight: bold;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.html{
+    margin-top: 8vh;
+}
+#html1{
+    width: 82%;
+    
+}
+#css1{
+    width: 82%;
+}
+#js1{
+    width: 82%;
+}
+#react1{
+    width: 82%;
+}
+
+progress{
+    width: 80%;
+    height: 1vh;
+    color: #ff4500;
+    background-color: #dbd8d7;
+    border-radius: 0 0 1rem 1rem;
+    margin-top: 1vh;
+}
+progress::-webkit-progress-bar{
+    background: #dbd8d7;
+}
+progress::-webkit-progress-value{
+    background: #ff4500;
+}
+progress::-moz-progress-bar{
+    color: #ff4500;
+    background: #dbd8d7;
+}
+@media screen and (max-width:600px) {
+    body{
+        padding: 0 10px 10px 10px;
+        overflow-x: hidden;
+    }
+
+    .skillz{
+        width: 100%;
+        left: 20px;
+        top: 80px
+    }
+    .sklz{
+        font-size: 2rem;
+    }
+    
+    #html1{
+        width: 90%;
+        
+    }
+    #css1{
+        width: 90%;
+    }
+    #js1{
+        width: 90%;
+    }
+    #react1{
+        width: 90%;
+    }
+    .pre{
+        width: 90%; 
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolio2.css">
+    <title>Contact</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('mcyz3nP4-VCb6xgX9');
+        })();
+    </script>
+</head>
+<body>
+    <div class="links">
+        <h1 class="bs">BS</h1>
+        <a href="portfolio.html" class="home link">Home</a>
+        <a href="portfolio1.html" class="skills link">Skills</a>
+        <a href="portfolio2.html" class="contact link">Contact</a>
+        
+    </div>
+    <div class="top">
+        <div class="svg2">
+           <img src="blob (3).svg" alt="">
+           <img src="vect.png" alt="" class="vect">
+        </div> 
+        <div class="svg1"><img src="blob (2).svg" alt=""></div>       
+    </div>
+    <div class="form">
+        
+        
+        <form action="javascript:sendMail()" method="post" enctype="text/plain" class="frm">
+            <h2>Get in Touch</h2>
+            <p class="pp">Feel free to drop a message below</p>
+
+            <input type="text" name="fname" id="fname" placeholder="First Name" required><br>
+            
+            <input type="text" name="lname" id="lname"  placeholder="Last Name" required><br>
+            
+            <input type="email" name="email" id="email" placeholder="Email" required><br>
+
+            <textarea name="mssg" id="msg" cols="30" rows="10" placeholder="Send me a message" required></textarea>
+            <input type="submit" value="send" id="snd">
+        </form>
+    </div>
+    <div class="add">
+        <p class="ppp">Abuja,Nigeria <br>
+            +234 813 7991 896 <br>
+            +234 708 5249 839 <br/>
+            bintasani992@gmail.com
+        </p>
+        
+    </div>
+   
+    <script src="portfolio2.js" defer></script>
+
+</body>
+</html>
